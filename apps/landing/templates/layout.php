@@ -11,8 +11,7 @@
 
 </head>
 <body class="goninis">
-
 <?php echo $sf_data->getRaw('sf_content') ?>
-
+<div class="bg">&nbsp;</div>
 </body>
 </html>

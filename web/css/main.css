@@ -27,7 +27,17 @@ body
 }
 
 body.goninis {
-  background:url(/images/landing/landing_bg.jpg) no-repeat;
+  background-color:#000;
+}
+
+body.goninis div.bg{
+  position:relative;
+  width:1024px;
+  height:699px;
+  margin:0px auto;
+  top:-700px;
+  background:#000 url(/images/landing/landing_bg.jpg) no-repeat;
+  z-index:-100;
 }
 
 body.goninis div.logo {
@@ -68,7 +78,15 @@ body.goninis form {
   top:410px;
   left:110px;
 }
+body.goninis form input[type='text']#email{
+  width:270px;
+}
+body.goninis form input[type='text']#zipcode{
+  width:110px;
+  margin-left:40px;
+}
 body.goninis form input[type='image']{
-  position:relative;
+  position:absolute;
   top:110px;
+  left:315px;
 }

@@ -4,6 +4,7 @@
     <?php echo form_tag ('optin/register')?>
       <?php echo input_tag('email')?>
       <?php echo input_tag('zipcode')?>
+      <div class="clearfix">&nbsp;</div>
       <?php echo submit_image_tag('/images/landing/sprite_unete_118x61.png')?>
     </form>
   </div>
