@@ -20,23 +20,27 @@ class optinActions extends sfActions
   {
     $this->forward('default', 'module');
   }
-  public function executeShow() 
+  public function executeRegister ()
   {
     require_once dirname(__FILE__).'/../../../config/config.inc.php';
     $api = new MCAPI ($apikey);
     $merge_vars = array(
       'FNAME'=>'Test', 
-      'LNAME'=>'Account', 
-      'GROUPINGS'=>array(
-        array(
-          'name'=>'Your Interests:', 
-          'groups'=>'Bananas,Apples'),
-        array(
-          'id'=>22, 
-          'groups'=>'Trains'
-        ),
-      )
+      'LNAME'=>'Account',
+      'ZIPCODE'=>$this->getRequestParameter ('zipcode')
     );
-    $this->test = "OK";
+    //$retval = $api->listSubscribe( $listId, $this->getRequestParameter ('email'), $merge_vars );
+
+    if ($api->errorCode){
+      echo "Unable to load listSubscribe()!\n";
+      echo "\tCode=".$api->errorCode."\n";
+      echo "\tMsg=".$api->errorMessage."\n";
+    } else {
+      echo "Subscribed - look for the confirmation email!\n";
+    }    
+  }
+  public function executeShow() 
+  {
+    
   }
 }

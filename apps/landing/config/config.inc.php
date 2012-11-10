@@ -4,14 +4,14 @@
     
     // A List Id to run examples against. use lists() to view all
     // Also, login to MC account, go to List, then List Tools, and look for the List ID entry
-    $listId = '21029';
+    $listId = 'a859092f9d';
     
     // A Campaign Id to run examples against. use campaigns() to view all
     $campaignId = '';
 
     //some email addresses used in the examples:
-    $my_email = 'no-reply@goninis.com';
-    $boss_man_email = 'no-reply@goninis.com';
+    $my_email = 'carlos@semantic.mx';
+    $boss_man_email = 'carlos@semantic.mx';
 
     //just used in xml-rpc examples
     $apiUrl = 'http://api.mailchimp.com/1.3/';
