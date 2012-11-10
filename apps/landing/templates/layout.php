@@ -10,7 +10,7 @@
 <link rel="shortcut icon" href="/favicon.ico" />
 
 </head>
-<body>
+<body class="goninis">
 
 <?php echo $sf_data->getRaw('sf_content') ?>
 

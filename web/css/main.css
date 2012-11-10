@@ -25,3 +25,38 @@ body
 {
   padding: 20px;
 }
+
+body.goninis {
+  background:url(/images/landing/landing_bg.jpg) no-repeat;
+}
+
+body.goninis div.logo {
+  position:relative;
+  background:url(/images/landing/sprites.png) no-repeat 0px 0px;
+  width:254px;
+  height:72px;
+}
+
+body.goninis div.icon {
+  position:relative;
+  width:41px;
+  height:61px;
+  float:left;
+}
+body.goninis div.icon.facebook {
+  background:url(/images/landing/sprites.png) no-repeat 0px -72px;
+}
+body.goninis div.icon.twitter {
+  background:url(/images/landing/sprites.png) no-repeat -41px -72px;
+}
+body.goninis div.icon.linkedin {
+  background:url(/images/landing/sprites.png) no-repeat -81px -72px;
+}
+body.goninis div.icon.pinterest {
+  background:url(/images/landing/sprites.png) no-repeat -121px -72px;
+}
+body.goninis div.optin.popup {
+  background:url(/images/landing/sprites.png) no-repeat 0px -135px;
+  width:580px;
+  height:627px;
+}
