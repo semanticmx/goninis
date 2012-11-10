@@ -27,7 +27,7 @@ body
 }
 
 body.goninis {
-  background-color:#000;
+  background-color:#006A85;
 }
 
 body.goninis div.bg{
@@ -75,8 +75,11 @@ body.goninis div.optin.popup {
 }
 body.goninis form {
   position:relative;
-  top:410px;
+  top:455px;
   left:110px;
+}
+body.goninis form input[type='text']{
+  height:26px;
 }
 body.goninis form input[type='text']#email{
   width:270px;
@@ -87,6 +90,6 @@ body.goninis form input[type='text']#zipcode{
 }
 body.goninis form input[type='image']{
   position:absolute;
-  top:110px;
+  top:70px;
   left:315px;
 }
