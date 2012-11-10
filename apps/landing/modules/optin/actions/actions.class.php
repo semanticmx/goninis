@@ -22,7 +22,6 @@ class optinActions extends sfActions
   }
   public function executeRegister ()
   {
-    var_dump ($sf_params->has ('email'));
     require_once dirname(__FILE__).'/../../../config/config.inc.php';
     $api = new MCAPI ($apikey);
     $merge_vars = array(
@@ -30,7 +29,7 @@ class optinActions extends sfActions
       'LNAME'=>'Account',
       'ZIPCODE'=>$this->getRequestParameter ('zipcode')
     );
-    //$retval = $api->listSubscribe( $listId, $this->getRequestParameter ('email'), $merge_vars );
+    $retval = $api->listSubscribe( $listId, $this->getRequestParameter ('email'), $merge_vars );
 
     if ($api->errorCode){
       echo "Unable to load listSubscribe()!\n";
