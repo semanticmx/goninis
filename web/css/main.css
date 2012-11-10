@@ -42,6 +42,7 @@ body.goninis div.icon {
   width:41px;
   height:61px;
   float:left;
+  top:-30px;
 }
 body.goninis div.icon.facebook {
   background:url(/images/landing/sprites.png) no-repeat 0px -72px;
@@ -56,7 +57,18 @@ body.goninis div.icon.pinterest {
   background:url(/images/landing/sprites.png) no-repeat -121px -72px;
 }
 body.goninis div.optin.popup {
+  position:relative;
+  top:15px;
   background:url(/images/landing/sprites.png) no-repeat 0px -135px;
-  width:580px;
+  width:600px;
   height:627px;
+}
+body.goninis form {
+  position:relative;
+  top:410px;
+  left:110px;
+}
+body.goninis form input[type='image']{
+  position:relative;
+  top:110px;
 }
