@@ -28,14 +28,16 @@ body
 
 body.goninis {
   background-color:#006A85;
+  min-height:700px;
 }
 
 body.goninis div.bg{
-  position:relative;
+  position:absolute;
   width:1024px;
   height:699px;
+  min-height:700px;
   margin:0px auto;
-  top:-700px;
+  top:0px;
   background:#000 url(/images/landing/landing_bg.jpg) no-repeat;
   z-index:-100;
 }
