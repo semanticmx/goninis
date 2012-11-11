@@ -31,12 +31,10 @@ class optinActions extends sfActions
     );
     $retval = $api->listSubscribe( $listId, $this->getRequestParameter ('email'), $merge_vars );
 
-    if ($api->errorCode){
-      echo "Unable to load listSubscribe()!\n";
-      echo "\tCode=".$api->errorCode."\n";
-      echo "\tMsg=".$api->errorMessage."\n";
+    if ($api->errorCode) {
+      $this->classname = "error";
     } else {
-      echo "Subscribed - look for the confirmation email!\n";
+      $this->classname = "ok";
     }    
   }
   public function executeShow() 
