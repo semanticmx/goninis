@@ -1,4 +1,4 @@
-<div class="logo grid_1">&nbsp;</div>
+<div class="logo">&nbsp;</div>
 <div class="grid_7 optin popup">
   <a href="javascript:history.back();"><div class="feedback <?php echo $classname; ?>"></div></a>
 </div>

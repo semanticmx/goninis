@@ -27,26 +27,30 @@ body
 }
 
 body.goninis {
-  background-color:#006A85;
-  min-height:700px;
+  background:#222 url(/images/textura.jpg) repeat;
 }
 
 body.goninis div.bg{
   position:absolute;
-  width:1024px;
-  height:699px;
-  min-height:700px;
+  width:979px;
+  height:764px;
   margin:0px auto;
   top:0px;
-  background:#000 url(/images/landing/landing_bg.jpg) no-repeat;
+  background:transparent url(/images/arcos.png) no-repeat;
   z-index:-100;
+}
+
+body.goninis > div.container_24 {
+  min-height:732px;
 }
 
 body.goninis div.logo {
   position:relative;
-  background:url(/images/landing/sprites.png) no-repeat 0px 0px;
-  width:254px;
+  background:url(/images/logo.png) no-repeat 0px 0px;
+  width:230px;
   height:72px;
+  margin:0px auto;
+  top:170px;
 }
 
 body.goninis div.icon {
@@ -58,9 +62,13 @@ body.goninis div.icon {
 }
 body.goninis div.icon.facebook {
   background:url(/images/landing/sprites.png) no-repeat 0px -72px;
+  top:-340px;
+  left:145px;
 }
 body.goninis div.icon.twitter {
   background:url(/images/landing/sprites.png) no-repeat -41px -72px;
+  top:-340px;
+  left:565px;
 }
 body.goninis div.icon.linkedin {
   background:url(/images/landing/sprites.png) no-repeat -81px -72px;
@@ -70,10 +78,11 @@ body.goninis div.icon.pinterest {
 }
 body.goninis div.optin.popup {
   position:relative;
-  top:15px;
-  background:url(/images/landing/sprites.png) no-repeat 0px -135px;
-  width:600px;
-  height:627px;
+  top:200px;
+  background:url(/images/menu_landingpage.png) no-repeat 0px 0px;
+  width:598px;
+  height:526px;
+  margin:0px auto;
 }
 body.goninis form {
   position:relative;
@@ -84,16 +93,22 @@ body.goninis form input[type='text']{
   height:26px;
 }
 body.goninis form input[type='text']#email{
+  position:relative;
   width:270px;
+  top:-60px;
+  left:-60px;
 }
 body.goninis form input[type='text']#zipcode{
+  position:relative;
   width:110px;
   margin-left:40px;
+  top:-60px;
+  left:-60px;
 }
 body.goninis form input[type='image']{
   position:absolute;
-  top:70px;
-  left:315px;
+  top:-10px;
+  left:260px;
 }
 body.goninis div.optin.popup div.feedback {
   position:relative;
@@ -108,4 +123,8 @@ body.goninis div.optin.popup div.feedback.ok {
 body.goninis div.optin.popup div.feedback.error {
   background:url(/images/landing/feedback_error.png) no-repeat 0px 0px;
   cursor:pointer;
+}
+body.goninis div.footer {
+  background:url(/images/textura_footer.jpg) repeat-x 0px 0px;
+  height:96px;
 }

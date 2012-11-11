@@ -16,5 +16,6 @@
     <div class="bg">&nbsp;</div>
     <?php echo $sf_data->getRaw('sf_content') ?>
   </div>
+  <div class="footer">&nbsp;</div>
 </body>
 </html>
