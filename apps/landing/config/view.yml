@@ -9,7 +9,7 @@ default:
     keywords:     symfony, project
     language:     en
 
-  stylesheets:    [960_24_col.css, main]
+  stylesheets:    [960_24_col.css, main2]
 
   javascripts:    []
 
