@@ -114,8 +114,8 @@ body.goninis div.optin.popup div.feedback {
   position:relative;
   width:450px;
   height:71px;
-  top:420px;
-  left:100px;
+  top:340px;
+  left:42px;
 }
 body.goninis div.optin.popup div.feedback.ok {
   background:url(/images/landing/feedback_ok.png) no-repeat 0px 0px;
