@@ -63,12 +63,12 @@ body.goninis div.icon {
 body.goninis div.icon.facebook {
   background:url(/images/landing/sprites.png) no-repeat 0px -72px;
   top:-340px;
-  left:145px;
+  left:172px;
 }
 body.goninis div.icon.twitter {
   background:url(/images/landing/sprites.png) no-repeat -41px -72px;
   top:-340px;
-  left:565px;
+  left:593px;
 }
 body.goninis div.icon.linkedin {
   background:url(/images/landing/sprites.png) no-repeat -81px -72px;
@@ -80,7 +80,7 @@ body.goninis div.optin.popup {
   position:relative;
   top:200px;
   background:url(/images/menu_landingpage.png) no-repeat 0px 0px;
-  width:598px;
+  width:654px;
   height:526px;
   margin:0px auto;
 }
@@ -95,27 +95,27 @@ body.goninis form input[type='text']{
 body.goninis form input[type='text']#email{
   position:relative;
   width:270px;
-  top:-60px;
-  left:-60px;
+  top:-300px;
+  left:0px;
 }
 body.goninis form input[type='text']#zipcode{
   position:relative;
   width:110px;
   margin-left:40px;
-  top:-60px;
-  left:-60px;
+  top:-300px;
+  left:0px;
 }
 body.goninis form input[type='image']{
   position:absolute;
-  top:-10px;
-  left:260px;
+  top:-250px;
+  left:318px;
 }
 body.goninis div.optin.popup div.feedback {
   position:relative;
   width:450px;
   height:71px;
   top:340px;
-  left:42px;
+  left:98px;
 }
 body.goninis div.optin.popup div.feedback.ok {
   background:url(/images/landing/feedback_ok.png) no-repeat 0px 0px;
@@ -127,4 +127,9 @@ body.goninis div.optin.popup div.feedback.error {
 body.goninis div.footer {
   background:url(/images/textura_footer.jpg) repeat-x 0px 0px;
   height:96px;
+}
+body.goninis .video_wrapper {
+  position:relative;
+  top:5px;
+  left:111px;
 }
