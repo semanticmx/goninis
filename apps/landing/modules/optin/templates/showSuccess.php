@@ -1,6 +1,6 @@
 <div class="logo grid_1">&nbsp;</div>
 <div class="grid_7 optin popup">
-  <?php echo form_tag ('optin/register')?>
+  <form action="/landing_dev.php/optin/register" method="post">
     <?php echo input_tag('email')?>
     <?php echo input_tag('zipcode')?>
     <div class="clearfix">&nbsp;</div>
