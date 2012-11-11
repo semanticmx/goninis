@@ -5,9 +5,9 @@ prod:
 dev:
   .settings:
     web_debug:              off
-    cache:                  on
-    no_script_name:         on
-    etag:                   on
+    cache:                  off
+    no_script_name:         off
+    etag:                   off
 
 test:
   .settings:
