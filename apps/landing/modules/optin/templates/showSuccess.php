@@ -1,4 +1,4 @@
-<div class="logo grid_1">&nbsp;</div>
+<div class="push_1 logo grid_1">&nbsp;</div>
 <div class="grid_7 optin popup">
   <form action="/landing_dev.php/optin/register" method="post">
     <?php echo input_tag('email')?>
