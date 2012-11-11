@@ -1,6 +1,6 @@
 <div class="logo grid_1">&nbsp;</div>
-<div class="grid_7 optin popup  <?php echo $classname; ?>">
-  <div class="feedback"></div>
+<div class="grid_7 optin popup">
+  <div class="feedback <?php echo $classname; ?>"></div>
 </div>
 <div class="clearfix">&nbsp;</div>
 <div class="grid_1 icon facebook">&nbsp;</div>
