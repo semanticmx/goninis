@@ -1,8 +1,5 @@
 <div class="logo">&nbsp;</div>
 <div class="optin popup">
-  <div class="video_wrapper">
-    <iframe width="425" height="240" src="http://www.youtube.com/embed/_mO79hZaA2s" frameborder="0" allowfullscreen></iframe>
-  </div>
   <form action="/landing_dev.php/optin/register" method="post">
     <?php echo input_tag('email')?>
     <?php echo input_tag('zipcode')?>

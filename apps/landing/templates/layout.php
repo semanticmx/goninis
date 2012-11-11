@@ -15,6 +15,7 @@
   <div class="container_24">
     <div class="bg">&nbsp;</div>
     <?php echo $sf_data->getRaw('sf_content') ?>
+    <iframe class="grid_11" width="425" height="240" src="http://www.youtube.com/embed/_mO79hZaA2s" frameborder="0" allowfullscreen></iframe>
   </div>
   <div class="footer">&nbsp;</div>
 </body>
