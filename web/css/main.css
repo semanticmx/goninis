@@ -105,3 +105,7 @@ body.goninis div.optin.popup div.feedback {
 body.goninis div.optin.popup div.feedback.ok {
   background:url(/images/landing/feedback_ok.png) no-repeat 0px 0px;
 }
+body.goninis div.optin.popup div.feedback.error {
+  background:url(/images/landing/feedback_error.png) no-repeat 0px 0px;
+  cursor:pointer;
+}
